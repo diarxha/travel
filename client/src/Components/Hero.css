@@ -6,8 +6,54 @@
     width: 50%;
     background-color: #483D8B;
     position: absolute;
-    top: 20em;
+    top: 25em;
     height: 7em;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-title{
+    color: #483D8B;
+    position: absolute;
+    top: 11.5em;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.search-cities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cities{
+    margin: 1em;
+    padding: 0.22em;
+    font-size: 24px;
+    width: 10em;
+    height: 2em;
+    background-color: snow;
+    color: #343434;
+    border-radius: 15px;
+}
+.to {
+    color: snow;
+    font-size: 1.7em;
+}
+.search{
+    margin: 1em;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 24px;
+    width: 10em;
+    height: 2em;
+    background-color: snow;
+    color: #483D8B;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.search:hover{
+    transform: scale(1.1, 1.1);
 }
