@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
 import Navbar from './Components/Navbar';
+import Hero from './Components/Hero';
 
 function App() {
   const [users, setUsers] = useState([]); 
@@ -22,6 +23,7 @@ useEffect(() => {
   return (
     <React.Fragment>
       <Navbar/>
+      <Hero/>
     </React.Fragment>
   );
 }
