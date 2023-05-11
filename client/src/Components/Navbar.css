@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 70px;
+    background-color:#1F75FE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: snow;
+    align-items: center;
+}
+.logo{
+    width: 23em;
+}
+#user-logo{
+    color: snow;
+    font-size: 2em;
+}
+.links {
+    color: snow;
+    text-decoration: none;
+    margin: 1em;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.3px;
+    align-items: center;
+    color: snow;
+}
