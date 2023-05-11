@@ -7,6 +7,9 @@ function Hero() {
     return (
       <div className='navbar'>
         <img src={mbasja} alt="bg" id='mbasja'/>
+        <div className="flight-search">
+            
+        </div>
     </div>
     )
   }

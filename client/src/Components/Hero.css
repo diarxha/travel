@@ -2,3 +2,12 @@
     position: absolute;
     top: 70px;
 }
+.flight-search{
+    width: 50%;
+    background-color: #1F75FE;
+    position: absolute;
+    top: 20em;
+    height: 7em;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
