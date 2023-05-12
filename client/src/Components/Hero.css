@@ -1,6 +1,7 @@
 #mbasja {
     position: absolute;
-    top: 70px;
+    /* top: 70px; */
+    z-index: -1;
 }
 .flight-search{
     width: 50%;

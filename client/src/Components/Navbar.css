@@ -5,21 +5,22 @@
 }
 .navbar{
     height: 70px;
-    background-color:#483D8B;
+    background-color:transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: snow;
 }
 .logo{
-    width: 28em;
+    width: 7rem;
+    margin-top: 20px;
 }
 #user-logo{
-    color: snow;
+    color: #483D8B;
     font-size: 2em;
 }
 .links {
-    color: snow;
+    color: #483D8B;
     text-decoration: none;
     margin: 1em;
     letter-spacing: 0.3px;
@@ -30,5 +31,5 @@
     justify-content: space-between;
     letter-spacing: 0.3px;
     align-items: center;
-    color: snow;
+    color: #483D8B;
 }

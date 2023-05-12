@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import './Navbar.css'
-import logo from "../img/aroplani.png";
+import logo from "../img/aroplani2.png";
 
 function Navbar() {
   return (
