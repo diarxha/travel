@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import './Hero.css'
-import mbasja from "../img/mbasja.png";
+import mbasja from "../img/aroplani2.jpg";
 
 function Hero() {
     return (

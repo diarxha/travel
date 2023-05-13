@@ -5,7 +5,7 @@
 }
 .navbar{
     height: 70px;
-    background-color:transparent;
+    background-color: transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,6 +25,10 @@
     margin: 1em;
     letter-spacing: 0.3px;
     font-size: 24px;
+    transition: 0.5s ease-in-out; 
+}
+.links:hover{
+    transform: scale(1.1, 1.1);
 }
 .navbar-links{
     display: flex;
