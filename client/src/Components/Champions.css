@@ -1,7 +1,41 @@
 .champions{
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 .champ-bg{
+    z-index: 1;
     width: 100%;
+    position: absolute;
+}
+.ucl-flight{
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 120%;
+}
+.ucl-title{
+    color: snow;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.ucl-book{
+    background-color: snow;
+    border-radius: 10px;
+    height: 7em;
+    width: 40%;
+    color: #483D8B;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.ucl-date{
+    color: snow;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
 }

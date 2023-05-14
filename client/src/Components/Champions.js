@@ -6,6 +6,11 @@ function Champions() {
   return (
     <div className='champions'>
         <img src={champions} className='champ-bg' />
+        <div className='ucl-flight'>
+            <p className='ucl-title'>Ready to be a champion?</p>
+            <p className='ucl-book'>Book now</p>
+            <p className='ucl-date'>June 10</p>
+        </div>
     </div>
   )
 }
