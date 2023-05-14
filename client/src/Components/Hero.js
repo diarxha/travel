@@ -20,5 +20,13 @@ function Hero() {
     )
   }
 
+  function Offers(){
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+
 
 export default Hero;
