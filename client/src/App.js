@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Offers from './Components/Offers';
 import Footer from './Components/Footer';
+import Champions from './Components/Champions';
 
 function App() {
   const [users, setUsers] = useState([]); 
@@ -27,6 +28,7 @@ useEffect(() => {
     <React.Fragment>
       <Navbar/>
       <Hero/>
+      <Champions/>
       <Offers/>
       <Footer/>
     </React.Fragment>

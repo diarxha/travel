@@ -1,3 +1,7 @@
 .champions{
-    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.champ-bg{
+    width: 100%;
 }
