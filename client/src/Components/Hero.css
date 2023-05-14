@@ -2,14 +2,18 @@
     position: absolute;
     top: -70px;
     z-index: -1;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
+}
+.hero{
+    height: 800px;
 }
 .flight-search{
     width: 50%;
     background-color: #483D8B;
     position: absolute;
     top: 30em;
+    left: 25%;
     height: 7em;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -21,6 +25,7 @@
     color: #483D8B;
     position: absolute;
     top: 14.5em;
+    left: 36%;
     font-weight: bolder;
     font-size: 30px;
 }

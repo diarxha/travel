@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import React from 'react';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
+import Offers from './Components/Offers';
 
 function App() {
   const [users, setUsers] = useState([]); 
@@ -21,10 +22,13 @@ useEffect(() => {
 }, []);
 
   return (
+    <div className="web-app">
     <React.Fragment>
       <Navbar/>
       <Hero/>
+      <Offers/>
     </React.Fragment>
+    </div>
   );
 }
 

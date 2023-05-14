@@ -2,12 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 import './Hero.css'
 import mbasja from "../img/aroplani2.jpg";
+import city1 from "../img/city1.jpg";
 
 function Hero() {
     return (
-      <div className='navbar'>
+      <div className='hero'>
         <img src={mbasja} alt="bg" id='mbasja'/>
-        <p className='search-title'>Search Flights</p>
+        <p className='search-title'>Hello, where do you wanna explore?</p>
         <div className="flight-search">
             <div className="search-cities">
                 <p className='cities'>Prishtina</p>
@@ -22,8 +23,11 @@ function Hero() {
 
   function Offers(){
     return (
-      <div>
-        
+      <div className='offers'>
+        <div className="offer">
+          <p>Go to Istanbul!</p>
+          <img src={city1}/>
+        </div>
       </div>
     )
   }

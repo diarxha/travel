@@ -1,0 +1,21 @@
+.offers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 30%;
+}
+.foto{
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+h3 {
+    font-weight: 500;
+}
