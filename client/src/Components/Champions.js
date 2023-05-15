@@ -8,7 +8,7 @@ function Champions() {
         <img src={champions} className='champ-bg' />
         <div className='ucl-flight'>
             <p className='ucl-title'>Ready to be a champion?</p>
-            <p className='ucl-book'>Book now</p>
+            <a className='ucl-book'>Book now</a>
             <p className='ucl-date'>June 10</p>
         </div>
     </div>
