@@ -5,9 +5,11 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer'>
-        <i class="fa-brands fa-instagram" id='insta'></i>
-        <i class="fa-brands fa-twitter" id='twitter'></i>
-        <i class="fa-brands fa-facebook-f" id='facebook'></i>
+        <i class="fa-brands fa-instagram" id='brands'></i>
+        <i class="fa-brands fa-twitter" id='brands'></i>
+        <i class="fa-brands fa-facebook-f" id='brands'></i>
+        <i class="fa-brands fa-youtube" id='brands'></i>
+        <i class="fa-brands fa-linkedin-in" id='brands'></i>
     </div>
   )
 }
