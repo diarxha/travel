@@ -11,6 +11,7 @@ function Navbar() {
               <a href='#' className="links">Home</a>
               <a href='#' className="links">Flights</a>
               <a href='#' className="links">Bookings</a>
+              <a href='#' className="links">Premium</a>
             </div>
 
             <a href="#"><i className="fa-solid fa-user" id='user-logo'></i></a>
